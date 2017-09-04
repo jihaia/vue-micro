@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar fixed dense dark>
+  <v-toolbar fixed dense dark class="blue-grey">
     <v-toolbar-side-icon ></v-toolbar-side-icon>
     <v-toolbar-title>{{ name }}</v-toolbar-title>
     <v-spacer></v-spacer>
