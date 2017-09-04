@@ -7,6 +7,11 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
+import Vuetify from 'vuetify'
+Vue.use(Vuetify)
+
+import 'vuetify/dist/vuetify.min.css'
+import 'material-design-icons/iconfont/material-icons.css'
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
