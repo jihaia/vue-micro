@@ -1,5 +1,7 @@
 <template>
-  <v-app light>
+  <v-app light toolbar>
+    <navigator />
+    <chooser />
     <app-bar />
     <main>
         <v-container fluid>
@@ -11,10 +13,15 @@
 
 <script>
 import AppBar from './components/core/AppBar'
+import Chooser from './components/core/Chooser'
+import Navigator from './components/core/Navigator'
+
 export default {
   name: 'app',
   components: {
-    AppBar
+    AppBar,
+    Chooser,
+    Navigator
   }
 }
 </script>

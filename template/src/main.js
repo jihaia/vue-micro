@@ -12,6 +12,7 @@ Vue.use(Vuetify)
 
 import 'vuetify/dist/vuetify.min.css'
 import 'material-design-icons/iconfont/material-icons.css'
+import 'font-awesome/css/font-awesome.min.css'
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
